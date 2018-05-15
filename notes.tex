@@ -436,4 +436,40 @@
         Triploids can result from the union of a gamete and haploid cells, and are almost always sterile. This sterility is often used by plan breeders,
         who may want to deliberately grow seedless fruit.
 
+    \section{Gene Linkage and Recombination}
+      Some genes do not follow Mendel's law of independent assortment, but then to travel together, exhibiting a behavior known as gene linkage. In such
+      genes, parental classes of alleles tend to appear in offspring much more frequently than recombinant classes.
+
+      A common cause for gene linkage is that linked genes are on the same chromosome. These genes do not always travel together due to recombination, but
+      tend to travel together in most cases, especially when they are close together on the same chromosome.
+
+      \subsection{Testcrosses for Linkage Detection}
+        Two-point (i.e. ``two gene'') testcrosses can be carried out to detect gene linkage. These tests work by breeding a parent that only contributes
+        recessive alleles with a parent that is dihybrid for the traits to test. Should the resulting phenotypes not be in a 1:1:1:1 ratio, then gene linkage
+        is likely occurring.
+
+      \subsection{Observing Recombination}
+        Recombination a key reason why genes on the same chromosome do not always travel together. This can be confirmed by experiments by observing
+        chiasmata, which form where gene recombination occurs.
+
+      \subsection{Recombination Frequencies}
+        Recombination Frequencies (RFs) concerning two genes can be used as an indicator for the distance between two genes on a chromosome. Units of measure
+        along a chromosome include RF percentage points, centimorgans (cM) and map units (m.u.), where 1\% RF = 1cM = 1m.u. Recombination frequencies tend to
+        be 50\% for genes on different chromosomes and can approach 50\% for genes on the far apart on the same chromosome, but never exceed 50\%.
+
+      \subsection{Linkage Analysis}
+        Determining whether two genes are linked required some statistical analysis. It is not sufficient to say that the genes did not assort in a perfect
+        1:1:1:1 ratio, since real-world experimentation, especially on small sample sizes, can produce deviations from their theoretically expected values.
+
+        \subsubsection{Chi-Square Test}
+          A chi-square test can be used to determine the probability that a certain gene arrangement could have occurred by chance, assuming an expected
+          1:1:1:1 ratio (i.e. assume the linkage hypothesis is false, (null hypothesis), and then determine whether this assumption matches the data).
+
+          $$\chi^2 = \sum\frac{(n_{obs} - n_{exp})^2}{n_{exp}}$$
+
+          The degrees of freedom (df) must also be determined, which is 1 less than the number of observed classes. For example, if the experiment contains
+          parental and recombinant types, then the df is 1. Based on the df and the $\chi^2$ value, the p-value (probability) of the null hypothesis can be
+          determined. Generally speaking, p-values below 0.05 are considered a boundary between significance and non-significance; null hypotheses below 0.05
+          are typically rejected.
+
 \end{document}
