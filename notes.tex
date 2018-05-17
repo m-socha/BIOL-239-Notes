@@ -472,4 +472,22 @@
           determined. Generally speaking, p-values below 0.05 are considered a boundary between significance and non-significance; null hypotheses below 0.05
           are typically rejected.
 
+    \section{Gene Mapping}
+      Gene mapping can be used to show the positions of genes on locations (i.e. loci) on chromosomes. These maps can be used to predict inheritance patterns
+      by estimating recombination frequencies.
+
+      \subsection{Two-Point Crosses}
+        Two-point crosses involve determining the relative positions of two genes on a chromosome. While fairly simple to analyze, two-point crosses have many
+        limitations, including that it may be hard to determine gene order for genes close together, and that actual map distances do not always add up accurately
+        for genes far apart. Two-point crosses are not accurate for determining distances between genes far apart; it is better to perform a series of two-point
+        crosses using genes that lie between the two genes being analyzed, or to perform a three-point cross.
+
+      \subsection{Three-Point Crosses}
+        Three-point crosses involve determining the relative positions of two genes on a chromosome. The main advantage of three-point crosses over two-point
+        crosses are that they allow for correcting mapping distance discrepancies caused by double crossovers. In the resulting progency, parental classes
+        will be the most frequent resulting genotypes. The next most frequent genotypes will result from single crossover recombinations between the two most
+        distant genes (known as region I). The most frequent after that will result from single crossover recombinations between the two closest adjacent
+        genes (known as region II). The two genotypes with the lowest frequency result from double crossovers. These double crossovers must be counted twice
+        when calculating distances between the two outside genes.
+
 \end{document}
