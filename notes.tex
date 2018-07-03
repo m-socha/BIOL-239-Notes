@@ -794,4 +794,57 @@
       Post-translational processing refers to changes to proteins after translation. Examples of post-translational processing include the removal of amino acids,
       generating several smaller polypeptides from a single chain, or adding chemical groups to an existing polypeptide.
 
+  \newpage
+
+  \section{Prokaryotic Gene Expression}
+
+    \subsection{Catabolic and Anabolic Pathways}
+      Catabolic pathways are metabolic pathways in which complex molecules are broken down into simpler molecules for use in a cell (e.g. breaking down sugars).
+      Anabolic pathways involve the production of end-product molecules (e.g. amino acids).
+
+      Catabolic pathways require inducible regulation, meaning that they should only be turned on when the molecules to be broken down are present. Anabolic
+      pathways require repressible regulation, meaning that they should only be turned on when the cell lacks enough of the end product produced.
+
+    \subsection{E. Coli's Utilization of Sugar Lactose}
+      As a case study, this section covers the catabolic pathway that allows E. Coli to utilize sugar lactose as a source of carbon and energy.
+
+      \subsubsection{Catabolic Proteins}
+        Two key proteins involved in this catabolic pathway are lactose permease and beta-galactosidase. Lactose permease transports lactose into a cell, while
+        beta-galactosidase splits the lactose into galactose and glucose. The presence of lactose induces the expression of genes required for lactose utilization;
+        the addition of lactose induces a 1000-fold increase in the production of these two proteins.
+
+      \subsubsection{Operon Theory Overview}
+        Much of the early work done on the gene expression of E. Coli was done in the 1950s by Jacques Monod and Francois Jacob. They introduced the operon theory,
+        which suggests that a single signal can regulate the expression of several genes clustered together on a chromosome. The reasoning behind this is that the
+        genes clustered together would be transcribed together (forming polycistronic mRNA, which is one mRNA strand with multiple transcribed genes), so anything
+        that regulates transcription affects all the genes in this cluster.
+
+        In E. Coli, there are three main genes encoding proteins for lactose utilization:
+        \begin{itemize}
+          \item \textbf{lac Z}: Encodes beta-galactosidase.
+          \item \textbf{lac Y}: Encodes permease.
+          \item \textbf{lac A}: Encodes transacetylase (adds acetyl group to lactose, not required for lactose breakdown).
+        \end{itemize}
+
+        Operons have a single operator located before the first gene. Molecules that interact with the operon are the repressor, which binds to the operon's operator,
+        and the inducer, which binds to the repressor to prevent it from binding to the operator (i.e. negative control).
+
+      \subsubsection{Evidence for Repressor Protein}
+        Mutations in another gene known as lacI result in mutants that synthesize permease and beta-galactosidase even in the absence of lactose. These mutations
+        that result in the production of a protein regardless of environmental conditions are known as constitutive mutations. This information led to the
+        hypothesis that lacI encodes a negative regulator (i.e. repressor) that binds at the operator site.
+
+      \subsubsection{Repressor Mutants}
+        The lac repressor induces a loop in the DNA that prevents RNA polymerase from binding. This loop is not formed through covalent bonding, but rather due to
+        the laws of thermodynamics. Mutations that result in an inactive repressor typically alter the repressor's shape to prevent it from binding to the operator.
+
+        Some mutations of the lacI gene can erase repressor activity (e.g. $lacI^-$ allele). There are also super-repressor mutations, where an operator is
+        permanently repressed even when lactose is present, since a mutation in the repressor prevents it from interacting with the inducer (e.g. $lacI^S$ allele).
+
+      \subsubsection{Trans vs Cis Action}
+        Elements acting in trans can diffuse through cytoplasm and act on any DNA molecule in a cell. Cis elements influence their own DNA molecule (e.g. operators).
+
+        Proteins act in trans, so repressor proteins can influence other operons. Because of this behavior, operators are rarely truly on or off, but are expressed
+        in a level dependent on the repressor and inducer concentrations.
+
 \end{document}
