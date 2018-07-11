@@ -971,4 +971,48 @@
       cells exposed to a vector do not absorb it. A common technique for isolating cells that took up the vector from ones that did not is placing
       them in an environment where some gene contained in the plasmid is necessary for survival.
 
+  \newpage
+
+  \section{Population Genetics}
+
+    \subsection{Key Terms}
+      A population is a group of individuals of the same species that live in the same geographical area and are capable of interbreeding. A gene
+      pool is the collection of alleles carried by individuals within a population. A few common types of frequencies analyzed are:
+      \begin{itemize}
+        \item \textbf{Phenotype frequency:} The proportion of individuals in a population of a particular phenotype.
+        \item \textbf{Genotype frequency:} The proportion of individuals in a population of a particular genotype.
+        \item \textbf{Allele frequency:} The proportion of genes in a gene pool of a particular allele.
+      \end{itemize}
+
+    \subsection{Hardy-Weinberg Principle}
+      The Hardy-Weinberg principle describes the relationship between genotype and allele frequencies within a population. The Hardy-Weinberg
+      principle states that if certain assumptions are met, these allele and genotype frequencies remain constant between generations.
+
+      \subsubsection{Hardy-Weinberg Assumptions}
+        Some simplifying assumptions underlying the Hardy-Weinberg principle include:
+        \begin{enumerate}
+          \item The population is a very large number (i.e. can be approximated as infinite) of diploid individuals with equal access to mating.
+          \item Individuals mate at random; genotypes do not play a role in mate selection.
+          \item No new mutations occur in the gene pool.
+          \item No migration of individuals into or out of the population takes place.
+          \item Natural selection does not occur; there are no genotype-dependent differences in rates of surviving to reproductive age and reproducing.
+        \end{enumerate}
+
+        Populations that satisfy these assumptions are said to be at Hardy-Weinberg equilibrium. In practice, populations do not fit these assumptions
+        perfectly; however, the Hardy-Weinberg principle is still effective for providing estimates of genotype and allele frequencies over a limited
+        number of generations.
+
+      \subsubsection{Hardy-Weinberg Proportions}
+        Let $A_1, A_2, ... A_N$ represent the frequencies of alleles of a gene $A$. The genotype frequencies that result from a cross between two random
+        individuals can be found by squaring the sum of the alleles. Since $A_1 + A_2 + ... + A_N = 1$, $(A_1 + A_2 + ... + A_N)^2 = 1$.
+
+        As an example, assume that a gene has an allele frequency of 70\% for a $p$ allele and a 30\% frequency for a $q$ allele. $(p + q)^2 = p^2 + 2pq + q^2$.
+        Thus, the chance of an individual being homozygous for the $p$ allele is $0.7^2 = 0.49$, the chance of an individual being heterozygous is
+        $2(0.7)(0.3) = 0.42$, and the chance of an individual being homozygous for the $q$ allele is $(0.3)^2 = 0.09$.
+
+      \subsubsection{Reaching Equilibrium}
+        If a population's genotypic ratios are not currently at Hardy-Weinberg equilibrium (e.g. there are only homozygotes), a single generation of breeding
+        is sufficient for autosomal genes to attain this equilibrium. The situation is more complex for X-linked genes, where several generations of breeding
+        are necessary to approach equilibrium.
+
 \end{document}
