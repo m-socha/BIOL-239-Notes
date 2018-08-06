@@ -2,8 +2,8 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{parskip}
 
-\usepackage{titlesec}
-\newcommand{\sectionbreak}{\clearpage}
+\let\stdsection\section
+\renewcommand\section{\newpage\stdsection}
 
 \usepackage{hyperref}
 \hypersetup{
