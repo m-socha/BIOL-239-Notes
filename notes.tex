@@ -2,6 +2,9 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{parskip}
 
+\usepackage{titlesec}
+\newcommand{\sectionbreak}{\clearpage}
+
 \usepackage{hyperref}
 \hypersetup{
   linktoc=all
@@ -46,8 +49,6 @@
         \item Gene regulation
         \item Population genetics
       \end{itemize}
-
-  \newpage
 
   \section{Mendelian Genetics}
     \subsection{Artificial Selection}
@@ -129,8 +130,6 @@
         Probability rules (i.e. product rule and sum rule) can be also be used to analyze the results of crosses, often in combination with the above
         techniques.
 
-  \newpage
-
   \section{Extensions to Mendel for Single-Gene Inheritance}
     \subsection{Incomplete Dominance}
       Incomplete dominance describes the situation where F1 offspring have a phenotype that resembles neither of their parents, but rather appears as a blend
@@ -165,8 +164,6 @@
       trait in the F1 generation would be 2:1 instead of 3:1, since individuals with two copies of this trait's dominant allele cannot survive. Note that some
       recessive lethal alleles may cause delayed lethality, in which case the phenotypic ratios would not be 2:1, since affected individuals may survive for
       some time (and may even reproduce).
-
-  \newpage
 
   \section{Extensions to Mendel for Gene Interactions}
     Traits in an organism that arise from the actions of multiple genes are known as polygenic, while traits that are controlled by multiple genes and the environment
@@ -209,8 +206,6 @@
     \subsection{Modifier Genes}
       Genes that alter the phenotype produced by alleles of other genes are known as modifier genes.
 
-  \newpage
-
   \section{Pedigrees}
     \subsection{Single-Gene Traits in Humans}
       Most human traits are controlled by the interaction of many genes. In fact, most single-gene traits in humans evoke life-threatening diseases, such as
@@ -248,8 +243,6 @@
       recessive traits tend to follow a horizontal pattern of inheritance, where in order for offspring to exhibit a recessive phenotype,
       both parents must carry the allele that causes that phenotype.
 
-  \newpage
-
   \section{Chromosomes}
     \subsection{Experimentation History}
       In the 17th century, semen was determined to contain spermatozoa, which was hypothesized to be able to enter an egg and achieve fertilization.
@@ -270,8 +263,6 @@
       Sex chromosomes determine the sex of an organism. In humans, the 23rd pair of chromosomes are sex chromosomes, where females have an XX pair and males have
       an non-homologous XY pair. The Y chromosome's SRY (sex-determining region of Y) gene is specifically what determines maleness. Sex-determining mechanisms
       can vary significantly between different species.
-
-  \newpage
 
   \section{Mitosis}
     Mitosis is a process of cell division in which a cell produces two genetically identical daughter cells. In the cell cycle, mitosis is known as the M phase.
@@ -320,8 +311,6 @@
         In cytokenesis, the nuclei emerging at each end of the elongated parent cell as packaged into two separate daughter cells. Processes of cytokenesis may actually
         begin during anaphase, though do not complete until after telophase.
 
-  \newpage
-
   \section{Meiosis}
     The majority of cells that make up an individual are somatic cells, which either mitotically divide or are arrested in a G phase of the cell cycle. On the other hand,
     Germ cells are incorporated into reproductive organs, where they eventually undergo meiosis, a type of cell division that yields 4 gamete haploid cells from a single
@@ -369,8 +358,6 @@
       Two main factors contribute to genetic diversity in meiosis. The first is that the pole maternal or paternal homologues migrate to is random, so the homologue pairs
       are able to assort independently of one another. The second factor is the resuffling of genetic material that occurs during recombination.
 
-  \newpage
-
   \section{Gametogenesis}
     Embryonic germ cells (collectively known as a germ line) are specialized diploid cells that can give rise to haploid cells through meiosis. These meiotic divisions lead
     to the production of gametes, with either the resulting haploids being gametes, or some of the resulting haploids undergoing some sort of differentiation to become
@@ -386,8 +373,6 @@
     \subsection{Spermatogenesis}
       Spermatogenesis is the process that produces sperm cells. Spermatocytes are cells that undergo meiotic divisions to produce sperm cells. Unlike oocytes,
       spermatocytes undergo a symmetric meiosis I and II, yielding four spermatids for each spermatocyte. Spermatogenesis can continue throughout a male's lifetime.
-
-  \newpage
 
   \section{Validation of Chromosome Theory}
 
@@ -418,8 +403,6 @@
         well as analyzing individuals that had undergone non-disjunction to confirm that eye color was ultimately controlled by genes on X
         chromosomes rather than an individual's sex.
 
-  \newpage
-
   \section{Aneuploidy}
     Aneuploidy refers to an abnormal number of chromosomes in a cell (i.e. not an exact multiple of haploid number $n$). Individuals lacking a
     chromosome in a pair are known as monosomic, while individuals with an extra chromosome are known as trisomic.
@@ -449,8 +432,6 @@
       Another example is with Turner syndrome (XO); most affected individuals start off as XX zygotes, but lose an X chromosome early during embryonic
       development.
 
-  \newpage
-
   \section{Euploidy}
     Euploid cells contain only complete sets of chromosomes, but might be monoploids (containing only 1 set of chromosomes) or polyploids
     (containing 3 or more sets of chromosomes).
@@ -469,8 +450,6 @@
       Tetraploids have four complete sets of chromosomes. Tetraploids can arise from the nondisjunction of all chromosomes during mitosis. Unlike triploids,
       tetraploids can be fertile, since they can produce balanced (diploid) gametes. This possibility of fertility can be extended in general to polyploids
       with even numbers of chromosome sets, since they may be able to produce balanced gametes.
-
-  \newpage
 
   \section{Gene Linkage and Recombination}
     Some genes do not follow Mendel's law of independent assortment, but tend to travel together, exhibiting a behavior known as gene linkage. In such
@@ -508,8 +487,6 @@
         determined. Generally speaking, p-values below 0.05 are considered a boundary between significance and non-significance; null hypotheses below 0.05
         are typically rejected.
 
-  \newpage
-
   \section{Gene Mapping}
     Gene mapping can be used to find the positions of genes on locations (i.e. loci) on chromosomes. These maps can be used to predict inheritance patterns
     by estimating recombination frequencies.
@@ -530,8 +507,6 @@
 
       Note that although three-point crosses are able to accurately estimate mapping distances between the second (i.e. middle) gene with the first and third gene,
       mapping distances between the first and third gene tend to be incorrect.
-
-  \newpage
 
   \section{DNA}
 
@@ -637,8 +612,6 @@
         somatic cells do not express telomerase, so their number of replications is limited. Increased levels of telomerase in somatic cells are known to increase
         the risk of cancer, so adding telomerase is not a simple ``fountain of youth''.
 
-  \newpage
-
   \section{Genetic Code}
     Gene expression refers to the flow of genetic information from DNA or RNA to polypeptides (chains of amino acids). Like nucleotides are the building blocks
     of DNA, amino acids are the building blocks of proteins. There are 20 amino acids that are encoded by DNA or RNA; rarer amino acids undergo further modification
@@ -676,8 +649,6 @@
     \subsection{Universality}
       The genetic code is nearly universal, with genetic information often interchangeable between different species. Although there are a handful of exceptions, codon
       encoding of polypeptides is almost always the same.
-
-  \newpage
 
   \section{Transcription}
     Transcription is the process by which parts of a single DNA strand are copied into an RNA strand. This is done by polymerization of ribonucleotides guided by
@@ -728,8 +699,6 @@
       The exact reason why introns exist has not been determined. One hypothesis is that introns allow for exons to be reshuffled to produce new genes,
       known as alternative splicing. This may occur, for instance, if splicing occurs between the splice donor site of one intron and the splice acceptor
       site of another. Trans-splicing is a special form of alternative splicing in which exons from two different transcripts are joined.
-
-  \newpage
 
   \section{Translation}
     Translation is the process in which nucleotide sequences in mRNA direct the assembly amino acids to produce proteins. Translation takes place on ribosomes,
@@ -794,8 +763,6 @@
       Post-translational processing refers to changes to proteins after translation. Examples of post-translational processing include the removal of amino acids,
       generating several smaller polypeptides from a single chain, or adding chemical groups to an existing polypeptide.
 
-  \newpage
-
   \section{Prokaryotic Gene Expression}
 
     \subsection{Catabolic and Anabolic Pathways}
@@ -847,8 +814,6 @@
 
         Proteins act in trans, so repressor proteins can influence other operons. Because of this behavior, operators are rarely truly on or off, but are expressed
         in a level dependent on the repressor and inducer concentrations.
-
-  \newpage
 
   \section{Eukaryotic Gene Expression}
 
@@ -924,8 +889,6 @@
         which is a phenomenon known as gene imprinting. In general, inheritable changes to gene expression that do not involve sequence changes are known
         as epigenetic changes.
 
-  \newpage
-
   \section{Restriction Enzymes}
     Restriction enzymes (also known as restriction endonucleases) are enzymes that remove portions of DNA by severing the phosphate bonds between nucleotides
     at a specific sequence of bases. The fragments generated by restrictive enzymes are known as restrictive fragments, and the act of cutting is known as
@@ -952,8 +915,6 @@
       done using a process known as electrophoresis. Electrophoresis involves charged particles in an electric field moving through a thick gel matrix;
       large fragments are less likely to find a pore small enough to squeeze through, which slows their movement and separates them from smaller fragments.
 
-  \newpage
-
   \section{Molecular Cloning}
     Molecular cloning is the process of using living cells to make many replicas of a fragment of DNA. Molecular cloning is useful for amplifying a
     sequence of DNA (i.e. making enough copies of it so that it becomes easier to study).
@@ -970,8 +931,6 @@
       Under certain conditions, cells can take up a cloning vector, after which they undergo transformation and replicate the vector. However, most
       cells exposed to a vector do not absorb it. A common technique for isolating cells that took up the vector from ones that did not is placing
       them in an environment where some gene contained in the plasmid is necessary for survival.
-
-  \newpage
 
   \section{Population Genetics}
 
@@ -1032,8 +991,6 @@
 
         Note that fitness is often dependent on the environment; a genotype that is relatively fit in one environment may be unfit in a different one.
 
-  \newpage
-
   \section{Genetic Analysis}
 
     \subsection{Genomic and cDNA Libraries}
@@ -1072,8 +1029,6 @@
       The result is a set of DNA strands of varying length with a dideoxyribonucleotide triphosphate at their end. This dideoxyribonucleotide triphosphate can be
       identified by dyeing the triphosphate for different base pairs different colors. Electrophoresis can be used to sort the generated strands by length, and
       their color can be used to determine their last nucleotide. Running this process many times on a section of DNA can produce a complete sequencing.
-
-  \newpage
 
   \section{Mutation}
     Mutations are heritable changes in base sequences that modify the content of DNA.
@@ -1144,8 +1099,6 @@
             errored DNA on the non-methylated strand can be removed. Eukaryotic cells follow a similar repair process, but their ``tagging'' mechanism is not
             well understood.
         \end{itemize}
-
-  \newpage
 
   \section{Cancer Genetics}
     Cancer refers to a variety of diseases characterized by uncontrolled cell growth and division. While cancer is not inherited, some inherited mutations
